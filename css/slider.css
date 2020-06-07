@@ -1,0 +1,28 @@
+figure{
+display: flex;
+justify-content: center;
+}
+
+.glider-next{
+    right: 1px;
+    top: 30%;
+    color: #fff !important;
+}
+
+.glider-prev{
+    left: -10%;
+    top: 30%;
+    color: #fff !important;
+}
+
+.glider-dot.active {
+    background: rgb(141, 175, 207) !important
+}
+
+.glider-dots {
+        bottom: -15% !important;
+        right: 8px !important;
+        width: 160px;
+        position: absolute;
+}
+
